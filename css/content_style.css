@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #EFF2E5;
+    font-family: 'Inter', sans-serif;
+    color: #5F6739;
+    margin: 0 70px;
+    font-family: 'Inter', sans-serif;
+}
+.brand-logo {
+    margin: 30px 100px;
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    width: fit-content;
+}
+header img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.brand-logo p {
+    margin-left: 5px;
+    color: #5F6739;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    background-color: #C2C6AF;
+    height: 200px;
+    width: 210px;
+    border-radius: 15%;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 5px 100px 5px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    line-height: 3;
+    font-size: small;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    color: #707070;
+}
+
+.main-content {
+    margin-left: 20%;
+}
+
+h2 {
+    font-size: x-large;
+    padding-left: 50px;
+}
+
+.content-inside {
+    padding-left: 20px;
+}
+
+#problem-p {
+    width: 600px;
+    height: 400px;
+    line-height: 2.5;
+    margin-right: 120px;
+    padding: 20px 50px 20px 30px;
+    background-color: #F3F5EB;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px;
+    
+}
+
+.future {
+    margin-top: 5rem;
+}
+
+.content-form {
+    padding: 20px;
+}
+
+.content-form label {
+    display: block;
+}
+
+.content-form .form-group {
+    padding-bottom: 15px;
+}
+
+.content-form input{
+    width: 200px;
+}
+
+.content-form input[type='submit'] {
+    background-color: #929875;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    width: fit-content;
+}
+
+
+.projection {
+    display: flex;
+    padding: 15px;
+
+}
+
+.projection .co2 {
+    
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    background-image: url('../images/thijs-stoop-A_AQxGz9z5I-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #EFF2E5;
+    font-size: large;
+}
+
+.projection .asthma {
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    background-image: url('../images/sincerely-media-ef_jj8ZOeBM-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #EFF2E5;
+    font-size: large;
+}

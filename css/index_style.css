@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+    background-color: #EFF2E5;
+    font-family: 'Inter', sans-serif;
+    color: #5F6739;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.main-content {
+    display: flex;
+}
+
+#content-text {
+    margin-left: 3rem;
+    margin-top: 100px;
+    text-align: center;
+    width: 800px;
+    height: fit-content;
+}
+
+#content-text p {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    color: #8D9565;
+    font-size: 27px;
+    
+}
+
+#content-text a {
+    background-color: #929875;
+    color: #FFF;
+    margin-top: 3rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    
+}
+
+#welcome-name {
+    font-size: 50px;
+}
+
+img {
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+#emphasized-head{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.main-footer{
+    background-color: #DEE7C2;
+    margin-top: 8rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+.main-footer ul {
+    height: 35px;
+    display: flex;
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    font-size: medium;
+}
+
+.main-footer a:hover {
+    color: #8D9565;
+}
+ 

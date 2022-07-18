@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Problem - CarAIbou</title>
+    <link rel="stylesheet" href="css/content_style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="brand-logo">
+            <img src="images/logo.png" alt="logo">
+            <p>CarAIbou</p>
+        </a>
+    </header>
+
+    <div class="container">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#future">The Future</a></li>
+                <li><a href="#inputs">Your Inputs</a></li>
+                <li><a href="#impact">Your Impact</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <section class="problem" id="problem">
+                <h2>The Problem</h2>
+                <p class="content-inside" id="problem-p">An average person in the United States produces 16 tons of carbon dioxide per year. 
+                    However, in order to have the best chance of avoiding a 2℃ rise in global temperatures, 
+                    the average global carbon footprint per person per year needs to drop to under 2 tons by 2050.
+                </br>In the United States, transportation accounts for 29% of total greenhouse gas emissions. Of that 29%, 
+                    57% is from individuals driving their personal cars.</p>
+            </section>
+
+            <section class="future" id="future">
+                <h2>The Future</h2>
+            
+                <!--Form-->
+                <form class="content-form" action=".php" method="POST">
+                    <div class="form-group">
+                        <label>Which state are you living in?</label>
+                        <select name="state">
+                            <option value="New York">New York</option>
+                            <option value="Alabama">Alabama</option>
+                        </select>
+                    </div>
+                </form>
+
+                <div class="projection" id="projection">
+                    <p class="co2">
+                        By 2027, 
+                    </br>if we do not take action, total CO2 emissions 
+                        by transportation in New York state will be 
+                    </br>78.3 
+                    </br>million metric tons
+                    </p>
+                    <p class="asthma">
+                        By 2027, 
+                    </br>if we do not take actions, there will be 
+                    </br>1,880,573 
+                    </br>people in New York state with asthma.
+                    </p>
+                </div>
+            </section>
+
+            <section class="inputs" id="inputs">
+                <h2>Please tell us your transport habits</h2>
+                <form class="content-form" action=".php" method="POST">
+                    <div class="form-group">
+                        <label>How many days do you drive your car to work?</label>
+                        <input type="number" placeholder="type your answer here">
+                    </div>
+                    <div class="form-group">
+                        <label>How many days do you carpool to work?</label>
+                        <input type="number" placeholder="type your answer here">
+                    </div>
+                    <div class="form-group">
+                        <label>How many days do you take public transportation to work?</label>
+                        <input type="number" placeholder="type your answer here">
+                    </div>
+                    <div class="form-group">
+                        <label>How many days do you walk/bike to work?</label>
+                        <input type="number" placeholder="type your answer here">
+                    </div>
+                    <input type="submit" name="submit" value="Submit">
+
+                </form>
+            </section>
+
+            <section class="impact" id="impact">
+                <h2>Your Impact</h2>
+                <div class="projection">
+                    <p class="co2">
+                        By 2027, 
+                    </br>if everyone took similar actions as you did, 
+                    </br>total CO2 emissions by transportation in New York state will be 
+                    </br>53.22 
+                    </br>million metric tons
+                    </p>
+                    <p class="asthma">
+                        By 2027, 
+                    </br>if everyone took similar actions as you did, there will be 
+                    </br>815,191 
+                    </br>people in New York state with asthma.
+                    </p>
+                </div>
+            </section>
+        </div> <!--main-content-->
+    </div> <!--container-->
+</body>
+</html>
