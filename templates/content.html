@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Problem - CarAIbou</title>
-    <link rel="stylesheet" href="css/content_style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/content_style.css')}}">
 </head>
 <body>
     <header>
-        <a href="index.html" class="brand-logo">
-            <img src="images/logo.png" alt="logo">
+        <a href="templates/index.html" class="brand-logo">
+            <img src="{{ url_for('static', filename = 'images/logo.png')}}" alt="logo">
             <p>CarAIbou</p>
         </a>
     </header>

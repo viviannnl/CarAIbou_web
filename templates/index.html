@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarAIbou</title>
-    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/index_style.css')}}">
 </head>
 <body class="container">
     <div class="main-content">
-        <img src="images/logo.png" alt="logo">
+        <img src="{{ url_for('static', filename = 'images/logo.png')}}" alt="logo">
     
         <div id="content-text">
             <h1 id="welcome-name">Welcome to <em id="emphasized-head">CarAIbou</em></h1>
@@ -19,7 +19,7 @@
             <br/>sustainable transportation habits
             <br/>by creating predictions from your personal pactions. 
             </p>
-            <a href="content.html">Get Started</a>
+            <a href="{{url_for('content')}}">Get Started</a>
         </div>
     </div> <!--class = main-content-->
     <footer class="main-footer">
